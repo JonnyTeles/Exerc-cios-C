@@ -1,4 +1,4 @@
-//https://github.com/JonnyTeles/Exerc-cios-C
+// https://github.com/JonnyTeles/Exercicios-C
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -11,6 +11,8 @@
 #include "aula 3/6/exercicio6.c"
 #include "aula 4/7/exercicio7.c"
 #include "aula 4/8/exercicio8.c"
+#include "aula 5/9/exercicio9.c"
+#include "aula 5/10/exercicio10.c"
 
 int main()
 {
@@ -59,6 +61,12 @@ int main()
             break;
         case 8:
             exercicio8();
+            break;
+        case 9:
+            exercicio9();
+            break;
+        case 10:
+            exercicio10();
             break;
         case 0:
             printf("Saindo...\n");

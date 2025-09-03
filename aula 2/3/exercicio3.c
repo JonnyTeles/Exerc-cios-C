@@ -10,7 +10,7 @@ int exercicio3() {
     printf("Digite o segundo numero: ");
     scanf("%f", &num2);
 
-    printf("Digite a operacao (+ - * /): ");
+    printf("Digite a operacao (+ - x /): ");
     scanf(" %c", &op);
 
     switch(op) {
